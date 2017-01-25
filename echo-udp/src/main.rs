@@ -3,7 +3,7 @@ extern crate futures;
 #[macro_use]
 extern crate tokio_core;
 
-use std::{env, io};
+use std::io;
 use std::net::SocketAddr;
 
 use futures::{Future, Poll};
